@@ -134,7 +134,7 @@ function Timeline() {
                       <div>
                         <hr/>
                         <Card.Title key={eachRecord.title}>{eachRecord.title}</Card.Title>
-                        <img key={eachRecord.body} src={eachRecord.body} />
+                        <img key={eachRecord.body} src={eachRecord.body} alt=""/>
                       </div>
                     ))
                   }
